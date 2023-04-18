@@ -1,4 +1,4 @@
-from utils import sort_data
+from utils.utils import sort_data
 
 def test_sort_data(test_data):
     sorted_data = sort_data(test_data)
