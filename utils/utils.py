@@ -5,6 +5,7 @@ def get_data():
        data = json.load(file)
    return data
 
+
 def filter_data(data):
     data_filtr = []
     for el in data:
